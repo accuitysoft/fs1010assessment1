@@ -1,0 +1,156 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d5d5d5;
+    
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #6B6E77;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+}
+
+.col_container {
+    display: inline;
+}
+
+.col {
+    width: 330px;
+    float: left;
+    margin-right: 15px;
+}
+
+.small_img {
+    width: 330px;
+    height: 220px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+.small_img_text {
+    padding: 10px;
+    width: 310px;
+    height: 200px;
+    color:rgba(0,0,0,0);
+    position: absolute;
+    top: 0px;
+}
+
+.small_img_text:hover {
+    background: linear-gradient(to bottom right, rgba(255,255,255,0.7) 50%, rgba(0, 0, 0, 0) 50%);
+    color:rgba(0,0,0,1);
+}
+
+.small_img_text p{
+    padding-right:140px;
+}
+
+.large_img {
+    width: 330px;
+    height: 500px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.large_img_text {
+    padding: 10px;
+    width: 310px;
+    height: 480px;
+    color:rgba(0,0,0,0);
+    position: absolute;
+    top: 0px;
+    
+}
+
+.large_img_text:hover {
+    background: linear-gradient(to bottom right, rgba(255,255,255,0.7) 50%, rgba(0, 0, 0, 0) 50%);
+    color:rgba(0,0,0,1);
+    
+}
+
+.large_img_text p{
+    padding-right:130px;
+}
+
+img {
+    width: 100%; 
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+
+/* Footer Section */
+.footer_social{    
+    clear:both;
+    font-size: 1.5em;
+}
+
+.footer_social a{    
+    color: black
+}
+
+
+.fa-facebook-f {
+    background-color: #d5d5d5;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin:10px;
+    transition: all .3s ease-in; }
+  
+  .fa-twitter {
+    background-color: #d5d5d5;
+    padding: 4px;
+    border-radius: 15px;
+    margin:10px;
+    transition: all .3s ease-in; }
+  
+  .fa-instagram {
+    background-color: #d5d5d5;
+    padding: 5px;
+    border-radius: 15px;
+    margin:10px;
+    transition: all .3s ease-in; }
+  
+  .fa-linkedin-in {
+    background-color: #d5d5d5;
+    padding: 5px;
+    border-radius: 15px;
+    margin:10px;
+    transition: all .3s ease-in; }
+
+  
+  .fa-facebook-f:hover {
+    background-color: red;
+    color: #fff;
+    transition: all .3s ease-in; }
+  
+  .fa-twitter:hover {
+    background-color: red;
+    color: #fff;
+    transition: all .3s ease-in; }
+  
+  .fa-instagram:hover {
+    background-color: red;
+    color: #fff;
+    transition: all .3s ease-in; }
+  
+  .fa-linkedin-in:hover {
+    background-color: red;
+    color: #fff;
+    transition: all .3s ease-in; }
+  
